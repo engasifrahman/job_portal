@@ -1,0 +1,172 @@
+/*================================================================================
+	Item Name: Robust - Responsive Admin Theme
+	Version: 1.0
+	Author: PIXINVENT
+	Author URL: http://www.themeforest.net/user/pixinvent
+================================================================================
+
+NOTE:
+------
+PLACE HERE YOUR OWN SCSS CODES AND IF NEEDED, OVERRIDE THE STYLES FROM THE OTHER STYLESHEETS.
+WE WILL RELEASE FUTURE UPDATES SO IN ORDER TO NOT OVERWRITE YOUR STYLES IT'S BETTER LIKE THIS.  */
+
+/* END navbar color & style customization */
+.header-navbar.navbar-semi-dark {
+    background: #3C8DBC; 
+}
+.header-navbar.navbar-semi-dark .navbar-nav .nav-link {
+    color: #fff;
+}
+.header-navbar .navbar-header .navbar-brand {
+    padding: 15px 0px 15px 50px;
+}
+.header-navbar .navbar-container ul.nav li a.menu-toggle {
+    padding: 1.1rem 0.8rem 1rem 0rem;
+}
+@media (max-width: 1199px){
+	.dropdown-toggle::after {
+		content: "";
+	}
+	.header-navbar .navbar-container ul.nav li a.menu-toggle {
+		padding: 1.1rem 0.8rem 1rem 0rem;
+	}
+	.header-navbar .navbar-container ul.nav li a.nav-link-label {
+		padding: 1.4rem 0rem 1rem 0rem;
+	}
+	.header-navbar .navbar-container ul.nav li a.dropdown-user-link {
+		padding: 0.8rem 0rem;
+	}
+}
+
+@media (max-width: 767px){
+	.header-navbar.navbar-semi-dark .navbar-header {
+		background: #3C8DBC !important; 
+	}
+	.header-navbar.navbar-with-menu .navbar-container {
+		background: #3C8DBC; 
+	}
+	.navbar.navbar-dark .navbar-header .navbar-nav .nav-link, .header-navbar.navbar-semi-dark .navbar-header .navbar-nav .nav-link {
+		color: #fff !important;
+	}
+	.header-navbar.navbar-dark .navbar-container .navbar-nav .nav-link, .header-navbar.navbar-semi-dark .navbar-container .navbar-nav .nav-link {
+    color: #fff;
+	}
+	.header-navbar .navbar-header {
+		max-width: 60% !important;
+		padding: 0.5rem 1rem;
+	}
+	.header-navbar.navbar-with-menu .navbar-container {
+		max-width: 40%;
+		padding: 0rem 0rem;
+	}
+	.header-navbar .navbar-header .navbar-brand {
+		padding: 15px 0px 15px 20px;
+		left: 80%;
+	}
+}
+/* END navbar color & style customization */
+
+/* BEGIN side navbar color & style customization */
+.header-navbar.navbar-semi-dark .navbar-header {
+    background: black;
+}
+body.vertical-layout.vertical-menu.menu-collapsed .main-menu .main-menu-content > span.menu-title, 
+body.vertical-layout.vertical-menu.menu-collapsed .main-menu .main-menu-content a.menu-title {
+    background-color: #0d1214;
+    border-color: #0d1214;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+}
+.main-menu.menu-dark ul.menu-popout li.hover > a,
+.main-menu.menu-dark ul.menu-popout li:hover > a,
+.main-menu.menu-dark ul.menu-popout li.open > a {
+    color: #fff !important;
+    background: #0d1214;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+}
+.main-menu.menu-dark ul > li.hover > a{
+    color: #fff !important;
+	padding: 8px 17px !important;
+    background: #0d1214 !important;
+    border-left: 3px solid #3C8DBC;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+}
+
+.main-menu.menu-dark ul.menu-popout li.active > a {
+    color: #fff;
+    background-color: #0d1214;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+}
+.main-menu.menu-dark .navigation > li ul li.active > a {
+    color: #fff;
+    background-color: #0d1214;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+}
+.main-menu.menu-dark .navigation > li > a:hover {
+    color: #fff;
+	padding: 8px 17px !important;
+    background: #0d1214;
+    border-left: 3px solid #3C8DBC;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+}
+.main-menu.menu-dark .navigation > li.open > a {
+	padding: 8px 17px !important;
+    color: #fff;
+    background: #0d1214;
+    border-left: 3px solid #3C8DBC;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+}
+.main-menu.menu-dark .navigation > li.active > a {
+    color: #fff;
+	padding: 8px 17px;
+    background: #0d1214;
+	border-left: 3px solid #3C8DBC;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+}
+.main-menu.menu-dark .navigation > li ul li > a {
+	border-left:none !important;
+	padding: 8px 20px 8px 50px !important;
+}
+.main-menu.menu-dark .navigation > li.open .hover > a {
+    color: #fff;
+    background: #0d1214;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+}
+.main-menu.menu-dark .navigation > li ul li ul li > a,
+.main-menu.menu-dark .navigation > li ul .open > ul li > a,
+.main-menu.menu-dark .navigation > li ul .open > ul li.hover > a,
+.main-menu.menu-dark .navigation > li ul .open > ul li.active > a,
+.main-menu.menu-dark .navigation > li ul .open > ul li > a:hover {
+    padding: 8px 20px 8px 60px !important;
+}
+/* END side navbar color & style customization */
+
+/* BEGIN scrollbar style customization */
+.ps-theme-light > .ps-scrollbar-y-rail > .ps-scrollbar-y {
+    width: 3px;
+}
+.ps-theme-light > .ps-scrollbar-y-rail {
+	right: 0px !important;
+    width: 3px;
+}
+.menu-collapsed .ps-theme-light > .ps-scrollbar-y-rail > .ps-scrollbar-y {
+    width: 3px;
+	display:none;
+}
+.menu-collapsed .ps-theme-light > .ps-scrollbar-y-rail {
+    width: 3px;
+	display:none;
+}
+.ps-theme-dark > .ps-scrollbar-y-rail > .ps-scrollbar-y {
+    width: 3px;
+}
+.ps-theme-dark > .ps-scrollbar-y-rail {
+	right: 0px !important;
+    width: 3px;
+}
+.menu-collapsed .ps-theme-dark > .ps-scrollbar-y-rail > .ps-scrollbar-y {
+    width: 3px;
+}
+.menu-collapsed .ps-theme-dark > .ps-scrollbar-y-rail {
+    width: 3px;
+}
+/* END scrollbar style customization*/

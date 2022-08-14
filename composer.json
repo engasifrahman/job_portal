@@ -1,0 +1,7 @@
+{
+    "require": {
+        "dompdf/dompdf": "^0.8.2",
+        "phpoffice/phpword": "^0.15.0",
+        "spipu/html2pdf": "^5.2"
+    }
+}

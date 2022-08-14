@@ -1,0 +1,270 @@
+RewriteEngine On
+
+RewriteRule ^about?$ about_us.php
+RewriteRule ^contact?$ contact_us.php
+
+RewriteRule ^lesson_list?$ lesson_view.php
+RewriteRule ^read_lesson?$ lesson_details.php
+RewriteRule ^comment_view?$ lesson_comment_box.php
+
+RewriteRule ^0sup?$ em_register.php
+RewriteRule ^1sup?$ js_register.php
+
+RewriteRule ^0sin?$ em_login.php
+RewriteRule ^1sin?$ js_login.php
+RewriteRule ^fpass?$ recover-password.php
+RewriteRule ^109@ad?$ ad_login.php
+
+RewriteRule ^job_list?$ job_view.php
+RewriteRule ^job_details?$ job_view_details.php
+
+
+RewriteRule ^1/?$ js/index.php
+RewriteRule ^1/rmt?$ js/remote.php
+
+RewriteRule ^1/updr?$ js/update_resume.php
+
+RewriteRule ^1/vpp?$ js/profile_pic_view.php
+RewriteRule ^1/upp?$ js/profile_pic_update.php
+RewriteRule ^1/epp?$ js/profile_pic_edit_form.php
+
+RewriteRule ^1/vpi?$ js/personal_info_view.php
+RewriteRule ^1/upi?$ js/personal_info_update.php
+RewriteRule ^1/epi?$ js/personal_info_edit_form.php
+RewriteRule ^1/euia?$ js/userinfo_after_edit.php
+
+RewriteRule ^1/vci?$ js/contact_info_view.php
+RewriteRule ^1/uci?$ js/contact_info_update.php
+RewriteRule ^1/eci?$ js/contact_info_edit_form.php
+
+RewriteRule ^1/vcri?$ js/career_info_view.php
+RewriteRule ^1/ucri?$ js/career_info_update.php
+RewriteRule ^1/ecri?$ js/career_info_edit_form.php
+
+RewriteRule ^1/vtj?$ js/targeted_job_view.php
+RewriteRule ^1/utj?$ js/targeted_job_update.php
+RewriteRule ^1/etj?$ js/targeted_job_edit_form.php
+
+RewriteRule ^1/vsp?$ js/specialization_view.php
+RewriteRule ^1/usp?$ js/specialization_update.php
+RewriteRule ^1/esp?$ js/specialization_edit_form.php
+
+RewriteRule ^1/vedu?$ js/education_view.php
+RewriteRule ^1/aedu?$ js/education_add.php
+RewriteRule ^1/afedu?$ js/education_add_form.php
+RewriteRule ^1/uedu?$ js/education_update.php
+RewriteRule ^1/eedu?$ js/education_edit_form.php
+RewriteRule ^1/dedu?$ js/education_delete.php
+
+RewriteRule ^1/vwe?$ js/work_exp_view.php
+RewriteRule ^1/awe?$ js/work_exp_add.php
+RewriteRule ^1/afwe?$ js/work_exp_add_form.php
+RewriteRule ^1/uwe?$ js/work_exp_update.php
+RewriteRule ^1/ewe?$ js/work_exp_edit_form.php
+RewriteRule ^1/dwe?$ js/work_exp_delete.php
+
+RewriteRule ^1/vtrain?$ js/training_view.php
+RewriteRule ^1/atrain?$ js/training_add.php
+RewriteRule ^1/aftrain?$ js/training_add_form.php
+RewriteRule ^1/utrain?$ js/training_update.php
+RewriteRule ^1/etrain?$ js/training_edit_form.php
+RewriteRule ^1/dtrain?$ js/training_delete.php
+
+RewriteRule ^1/vcerti?$ js/certifications_view.php
+RewriteRule ^1/acerti?$ js/certifications_add.php
+RewriteRule ^1/afcerti?$ js/certifications_add_form.php
+RewriteRule ^1/ecerti?$ js/certifications_edit_form.php
+RewriteRule ^1/ucerti?$ js/certifications_update.php
+RewriteRule ^1/dcerti?$ js/certifications_delete.php
+
+RewriteRule ^1/vlang?$ js/language_view.php
+RewriteRule ^1/alang?$ js/language_add.php
+RewriteRule ^1/aflang?$ js/language_add_form.php
+RewriteRule ^1/ulang?$ js/language_update.php
+RewriteRule ^1/elang?$ js/language_edit_form.php
+RewriteRule ^1/dlang?$ js/language_delete.php
+
+RewriteRule ^1/vref?$ js/reference_view.php
+RewriteRule ^1/aref?$ js/reference_add.php
+RewriteRule ^1/afref?$ js/reference_add_form.php
+RewriteRule ^1/uref?$ js/reference_update.php
+RewriteRule ^1/eref?$ js/reference_edit_form.php
+RewriteRule ^1/dref?$ js/reference_delete.php
+
+RewriteRule ^1/uplr?$ js/upload_resume.php
+RewriteRule ^1/uplru?$ js/upload_resume_update.php
+RewriteRule ^1/uplrv?$ js/upload_resume_view.php
+
+RewriteRule ^1/tempr?$ js/resume_template.php
+RewriteRule ^1/resume_basic_1?$ js/resume_basic_1.php
+RewriteRule ^1/resume_basic_2?$ js/resume_basic_2.php
+RewriteRule ^1/resume_academic?$ js/resume_academic.php
+RewriteRule ^1/resume_it?$ js/resume_it.php
+
+RewriteRule ^1/tempcl?$ js/cover_letter_template.php
+RewriteRule ^1/vcli?$ js/cover_letter_info_view.php
+RewriteRule ^1/ecli?$ js/cover_letter_info_edit_form.php
+RewriteRule ^1/ucli?$ js/cover_letter_info_update.php
+RewriteRule ^1/cover_letter_basic?$ js/cover_letter_basic.php
+RewriteRule ^1/cover_letter_elegant?$ js/cover_letter_elegant.php
+RewriteRule ^1/cover_letter_modern?$ js/cover_letter_modern.php
+
+RewriteRule ^1/lesson_list?$ js/lesson_view.php
+RewriteRule ^1/read_lesson?$ js/lesson_details.php
+RewriteRule ^1/comment_view?$ js/lesson_comment_box.php
+RewriteRule ^1/comment_oparation?$ js/lesson_comment_oparation.php
+
+RewriteRule ^1/js?$ js/job_search.php
+RewriteRule ^1/pj?$ js/preferred_job.php
+RewriteRule ^1/aj?$ js/applied_job.php
+
+RewriteRule ^1/sj?$ js/saved_job.php
+RewriteRule ^1/sjv?$ js/saved_job_view.php
+RewriteRule ^1/sjr?$ js/saved_job_remove.php
+
+RewriteRule ^1/jv?$ js/job_view.php
+RewriteRule ^1/jv!([0-9]+) js/job_view.php?em_id=$1
+RewriteRule ^1/jv@([0-9]+) js/job_view.php?new_jobs=$1
+RewriteRule ^1/jv-([0-9]+) js/job_view.php?govt_jobs=$1
+RewriteRule ^1/jv~([0-9]+) js/job_view.php?it_jobs=$1
+RewriteRule ^1/jv'([0-9]+) js/job_view.php?deadline_today=$1
+RewriteRule ^1/jv"([0-9]+) js/job_view.php?deadline_tomorrow=$1
+RewriteRule ^1/jv;([0-9]+) js/job_view.php?jc_id=$1
+RewriteRule ^1/jv_([0-9]+) js/job_view.php?l_id=$1
+RewriteRule ^1/jv,([0-9]+) js/job_view.php?bc_id=$1
+
+RewriteRule ^1/jvd?$ js/job_view_details.php
+RewriteRule ^1/jvd<([0-9]+) js/job_view_details.php?post_id=$1
+RewriteRule ^1/jvdv?$ js/job_view_details_view.php
+RewriteRule ^1/jvda?$ js/job_view_details_apply.php
+RewriteRule ^1/jvds?$ js/job_view_details_save.php
+
+RewriteRule ^1/eml?$ js/em_list.php
+RewriteRule ^1/emlf?$ js/em_list_follow.php
+RewriteRule ^1/emlunf?$ js/em_list_unfollow.php
+RewriteRule ^1/emlv?$ js/em_list_view.php
+RewriteRule ^1/emd?$ js/em_details.php
+
+RewriteRule ^1/fe?$ js/following_em.php
+RewriteRule ^1/fev?$ js/following_em_view.php
+
+RewriteRule ^1/rv?$ js/resume_visited.php
+RewriteRule ^1/rvv?$ js/resume_visited_view.php
+
+RewriteRule ^1/stng?$ js/settings.php
+RewriteRule ^1/stngv?$ js/settings_view.php
+RewriteRule ^1/stngu?$ js/settings_update.php
+
+RewriteRule ^1/sout?$ js/logout.php
+
+
+
+RewriteRule ^0/?$ em/index.php
+RewriteRule ^0/rmt?$ em/remote.php
+RewriteRule ^0/vr?$ em/view_resume.php
+RewriteRule ^0/updr?$ em/update_resume.php
+
+RewriteRule ^0/stng?$ em/settings.php
+RewriteRule ^0/stngv?$ em/settings_view.php
+RewriteRule ^0/stngu?$ em/settings_update.php
+
+RewriteRule ^0/profile?$ em/profile.php
+RewriteRule ^0/vcl?$ em/company_logo_view.php
+RewriteRule ^0/ecl?$ em/company_logo_edit_form.php
+RewriteRule ^0/ucl?$ em/company_logo_update.php
+
+RewriteRule ^0/vci?$ em/company_info_view.php
+RewriteRule ^0/eci?$ em/company_info_edit_form.php
+RewriteRule ^0/uci?$ em/company_info_update.php
+
+RewriteRule ^0/vcppp?$ em/cp_profile_pic_view.php
+RewriteRule ^0/ecppp?$ em/cp_profile_pic_edit_form.php
+RewriteRule ^0/ucppp?$ em/cp_profile_pic_update.php
+
+RewriteRule ^0/vcpi?$ em/cp_info_view.php
+RewriteRule ^0/ecpi?$ em/cp_info_edit_form.php
+RewriteRule ^0/ucpi?$ em/cp_info_update.php
+RewriteRule ^0/euia?$ em/userinfo_after_edit.php
+
+RewriteRule ^0/cicurlar?$ em/circular.php
+RewriteRule ^0/circular_list?$ em/circular_view.php
+RewriteRule ^0/post_details?$ em/circular_details.php
+RewriteRule ^0/afcircular?$ em/circular_add_form.php
+RewriteRule ^0/ecircular?$ em/circular_edit_form.php
+RewriteRule ^0/c_op?$ em/circular_oparation.php
+
+RewriteRule ^0/aap?$ em/applied_applicants.php
+RewriteRule ^0/aappp?$ em/applied_applicants_per_post.php
+RewriteRule ^0/select?$ em/applied_applicants_per_post_select.php
+RewriteRule ^0/unselect?$ em/applied_applicants_per_post_unselect.php
+RewriteRule ^0/aapppv?$ em/applied_applicants_per_post_view.php
+RewriteRule ^0/search?$ em/applied_applicants_search.php
+RewriteRule ^0/select_all?$ em/applied_applicants_search_select_all.php
+RewriteRule ^0/search_result?$ em/applied_applicants_search_view.php
+
+RewriteRule ^0/sap?$ em/selected_applicants.php
+RewriteRule ^0/sappp?$ em/selected_applicants_per_post.php
+RewriteRule ^0/sapppv?$ em/selected_applicants_per_post_view.php
+RewriteRule ^0/unselect_all?$ em/selected_applicants_per_post_unselect_all.php
+
+RewriteRule ^0/jsl?$ em/js_list.php
+RewriteRule ^0/jslv?$ em/js_list_view.php
+RewriteRule ^0/js_follow?$ em/js_list_follow.php
+RewriteRule ^0/js_unfollow?$ em/js_list_unfollow.php
+
+RewriteRule ^0/fjs?$ em/following_js.php
+RewriteRule ^0/fjsv?$ em/following_js_view.php
+
+RewriteRule ^0/fjs?$ em/following_js.php
+RewriteRule ^0/fjsv?$ em/following_js_view.php
+
+RewriteRule ^0/post_visited?$ em/circular_visited.php
+RewriteRule ^0/visit_details?$ em/circular_visited_details.php
+
+RewriteRule ^0/vj?$ em/visit_js.php
+RewriteRule ^0/vjv?$ em/visit_js_view.php
+
+RewriteRule ^0/sout?$ em/logout.php
+
+
+
+RewriteRule ^109/?$ ad/index.php
+RewriteRule ^109/rmt?$ ad/remote.php
+
+RewriteRule ^109/ljs?$ ad/js_list.php
+RewriteRule ^109/ljsv?$ ad/js_list_view.php
+RewriteRule ^109/ljsu?$ ad/js_list_update.php
+RewriteRule ^109/jsd?$ ad/js_details.php
+
+RewriteRule ^109/lem?$ ad/em_list.php
+RewriteRule ^109/lemv?$ ad/em_list_view.php
+RewriteRule ^109/lemu?$ ad/em_list_update.php
+RewriteRule ^109/emd?$ ad/em_details.php
+RewriteRule ^109/emdv?$ ad/em_details_view.php
+
+RewriteRule ^109/lpost?$ ad/post_list.php
+RewriteRule ^109/lpostv?$ ad/post_list_view.php
+RewriteRule ^109/lpostu?$ ad/post_list_update.php
+RewriteRule ^109/postd?$ ad/post_details.php
+RewriteRule ^109/postdv?$ ad/post_details_view.php
+
+RewriteRule ^109/preparation?$ ad/job_preparation.php
+
+RewriteRule ^109/view_subject?$ ad/subject_view.php
+RewriteRule ^109/afsubject?$ ad/subject_add_form.php
+RewriteRule ^109/efsubject?$ ad/subject_edit_form.php
+RewriteRule ^109/update_subject?$ ad/subject_oparation.php
+
+RewriteRule ^109/view_lesson?$ ad/lesson_view.php
+RewriteRule ^109/aflesson?$ ad/lesson_add_form.php
+RewriteRule ^109/eflesson?$ ad/lesson_edit_form.php
+RewriteRule ^109/update_lesson?$ ad/lesson_oparation.php
+RewriteRule ^109/read_lesson?$ ad/lesson_details.php
+RewriteRule ^109/comment_view?$ ad/lesson_comment_box.php
+RewriteRule ^109/comment_oparation?$ ad/lesson_comment_oparation.php
+
+RewriteRule ^109/stng?$ ad/settings.php
+RewriteRule ^109/stngv?$ ad/settings_view.php
+RewriteRule ^109/stngu?$ ad/settings_update.php
+
+RewriteRule ^109/sout?$ ad/logout.php

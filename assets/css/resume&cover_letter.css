@@ -1,0 +1,48 @@
+/* BEGIN all resume Style*/
+  body {
+    width: 100% !important;
+    font-size: 14px !important;
+    background-color: white !important;
+  }
+  .cv_photo img{
+    width:100px;
+    height:120px;
+  }
+  .center-block {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .cv_heading div{
+    margin-top: 5px;
+  }
+  .cv_heading table{
+    margin-top: 12px;
+    margin-bottom: 10px;
+  }
+  .custom-bordered th,
+  .custom-bordered td {
+      border: 1px solid #ddd !important;
+  }
+  .text-justify{
+    text-align: justify;
+  }
+  .text-center{
+    text-align: center;
+  }
+  .text-left{
+    text-align: left;
+  }
+  .text-right{
+    text-align: right;
+  }
+  ol, ul, dl {
+      margin-top: 0;
+      margin-bottom: 0rem;
+  }
+  .table {
+      width: 100%;
+      max-width: 100%;
+      margin-bottom: 0rem;
+  }
+/* END all resume Style*/

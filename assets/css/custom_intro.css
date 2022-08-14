@@ -1,0 +1,530 @@
+
+/*----------- BEGIN helper classes ----------*/
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web:300,300i,400,400i,600,600i,700,700i,900');
+@import url('https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700,700i');
+body,h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, p {
+  font-family: 'Titillium Web', sans-serif !important;
+  color: black !important;
+}
+body{
+  background-color:#F3F3F3 !important;
+}
+
+.text-center{
+	 text-align:center!important
+}
+.text-right{
+	 text-align:right!important
+}
+.text-left{
+	 text-align:left!important
+}
+.text-justify{
+	 text-align:justify!important
+}
+.btn {
+    color: #fff;
+    padding: 14px 30px;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+    border-radius: 3px;
+    box-shadow: 0 4px 5px rgba(34, 34, 34, 0.2);
+}
+@media (max-width: 1200px){
+	.pl-md-3{
+		padding-left: 2.5rem !important;
+	}
+}
+@media (max-width: 544px){
+	.pl-xs-3{
+		padding-left: 1.7rem !important;
+	}
+}
+ /*-------- END helper classes -------------*/
+
+  /*--------- BEGIN About Us Page Top Background Image style --------- */
+.about-page-title{
+	background: url("../images/au.jpg") no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding: 103px 0px 95px 0px;
+	color: #fff;
+	z-index: 1;
+	position: relative;
+}
+@media (max-width: 767px){
+	.about-page-title{
+		padding: 80px 0px 100px 0px;
+	}
+}
+.about-page-title:after{
+	position: absolute;
+	content: "";
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	height: 100%;
+	background: rgba(0, 0, 0, .5);
+	z-index: -1;
+}
+ /*--------- END About Us Page Top Background Image style --------- */
+ 
+/*--------- BEGIN Contact Form Top Background Image style --------- */
+.page-title{
+	background: url("../images/contact.jpg") no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding: 103px 0px 95px 0px;
+	color: #fff;
+	z-index: 1;
+	position: relative;
+}
+@media (max-width: 767px){
+	.page-title{
+		padding: 80px 0px 100px 0px;
+	}
+}
+.page-title:after{
+	position: absolute;
+	content: "";
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	height: 100%;
+	background: rgba(0, 0, 0, .5);
+	z-index: -1;
+}
+/*------ END Contact Form Top Background Image style -----*/
+
+/*------ BEGIN Contact Form style -----*/
+.sh:focus {
+	border-color:transparent;
+    box-shadow: 0 1px 1px rgba(0,0,0,.075), 0 0 15px rgba(0,0,0,.3) ;
+}
+/*------ END Contact Form style ----------*/
+
+/*--------- BEGIN carousel Style ---------*/
+@media (min-width: 544px){
+	.carousel-indicators {
+		bottom: -15px;
+	}
+	.carousel-caption {
+		right: 20%;
+		left: 20%;
+		bottom: -10px;
+	}
+}
+/*-------- END carousel Style ----------*/
+
+/*--------- BEGIN pills Style ---------*/
+  .nav-pills .nav-link{
+	color:#0283C8;
+	border:1px solid  #45B3EE; 
+	right:-5px !important;
+  }
+  .nav-pills .nav-link:hover,
+  .nav-pills .nav-link.active:hover {
+	background-color:#37A2DB;
+	color:white;
+  }
+ .nav-pills .nav-link.active,
+ .nav-pills .nav-link.active:focus,
+ .nav-pills .nav-item.open .nav-link,
+ .nav-pills .nav-item.open .nav-link:focus {
+    color: #fff;
+    cursor: default;
+    background-color: #0283C8;
+}
+ .nav-pills .nav-link.active:hover,
+ .nav-pills .nav-item.open .nav-link:hover {
+    color: #fff;
+    cursor: default;
+    background-color: #0283C8;
+}
+/*-------- END pills Style ---------*/
+
+/*---------- BEGIN Social Icon Style ---------*/
+.socialnav a {
+	position: fixed;
+	right: -77px;
+	transition: 0.6s;
+	padding: 6px 8px 6px 10px;
+	width: 105px;
+	text-decoration: none;
+	font-size: 1em;
+	color: white;
+	border-radius: 2px 0 0 2px;
+}
+
+.socialnav a:hover {
+	right: 0;
+}	
+.one{
+	top: 205px;
+}
+.two{
+	top: 237px;
+}
+.three{
+	top: 269px;
+}
+.four{
+	top: 301px;
+}
+.facebook {
+	background-color: #415E9B;
+}
+
+.twitter {
+	background-color: #2196F3;
+}
+
+.youtube {
+	background-color: #f44336;
+}
+
+.contact {
+	background-color: #4CAF50;
+}
+.padd{
+	padding-right:13px;
+}
+.padd2{
+	padding:5px 12px 5px 12px;
+	border:1px solid white;
+	border-radius: 8px;
+	margin-right:6px;
+	color:white;
+}
+.padd3{
+	padding:5px 15px 5px 15px;
+}
+.salign{
+	padding-top:22px;
+	padding-bottom:10px;
+	margin-left:17px;
+}
+/*---------- BEGIN Social Icon Style ----------*/
+
+/* BEGIN form-control customization*/
+select.form-control:not([size]):not([multiple]).input-lg,
+input.form-control.input-lg {
+    height: 3.16667rem;
+    padding-right: 1.5rem;
+    padding-left: 3.16667rem;
+    font-size: 1.25rem;
+    line-height: 1.45;
+    border-radius: 0.27rem;
+}
+/* BEGIN form-control customization*/
+
+.avatar-bg{
+  background-color: #CCCFCF;
+}
+
+.mobile-device {
+    position: relative;
+    min-height: 0px !important;
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+}
+/* END form-control customization*/
+
+
+/* BEGIN MBW Style customization*/
+h6, .h6 {
+    font-size: 0.9em;
+    text-transform: capitalize;
+}
+
+.btn {
+    display: inline-block;
+    font-weight: normal;
+    line-height: 1.25;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    user-select: none;
+    border: 1px solid transparent !important;
+    border-radius: 0.18rem;
+    transition: all 0.2s ease-in-out;
+}
+.btn-secondary {
+    color: #373a3c !important;
+    background-color: #fff !important;
+    border-color: #818a91 !important;
+}
+
+.btn-info:active, .btn-info.active, .open > .btn-info.dropdown-toggle {
+    color: #fff !important;
+    background-color: #2494be !important;
+    border-color: #228eb6 !important;
+    background-image: none !important;
+}
+.btn-info {
+    border-color: #3BAFDA !important;
+    background-color: #3BAFDA !important;
+    color: #FFFFFF !important;
+}
+form .form-group {
+    margin-bottom: 0;
+}
+/* END MBW Style customization*/
+
+/* ############## BEGIN form Style cuntomization because of MBW #################### */
+.wizard-card .disabled {
+    display: initial;
+}
+.form-group .help-block {
+  position: relative;
+  display: block;
+}
+ .before {
+  position: absolute !important;
+  top: 5px !important;
+  right: 0;
+  z-index: 2;
+  display: block;
+  width: 34px !important;
+  height: 34px !important;
+  line-height: 34px !important;
+  text-align: center;
+  pointer-events: none;
+  opacity: 0;
+}
+.has-success .check {
+  color: #4caf50;
+  opacity: 1;
+}
+.has-danger .cross {
+  color: #f44336;
+  opacity: 1;
+}
+.form-group.has-danger .form-control {
+  box-shadow: none; 
+}
+.form-group.has-danger.is-focused .form-control {
+  background-image: linear-gradient(#f44336, #f44336), linear-gradient(#D2D2D2, #D2D2D2); 
+}
+.form-group.has-danger label.control-label,
+.form-group.has-danger .help-block {
+  color: #f44336; 
+}
+.has-dander .form-control-feedback {
+  color: #f44336;
+  opacity: 1; 
+}
+.card {
+  padding:0px;
+}
+
+.wizard-card {
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+    margin-bottom: 1.875rem;
+    border-radius: 0;
+    min-height: 0px;
+    border:none;
+}
+.form-group select[name=dtBasicExample_length] {
+    padding: 0px 8px 0px 8px;
+}
+
+.form-group textarea {
+    resize: vertical;
+    height: 70px;
+}
+.form-group input[type=file] {
+    opacity: 1; 
+}
+.form-group label.control-label {
+    font-size: 11px;
+    line-height: 1.07143;
+    color: gray;
+    font-weight: 400;
+    margin: 16px 0 0 0;
+}
+.form-group .checkbox label, 
+.form-group .radio label,
+.form-group label {
+    font-size: 14px;
+    line-height: 1.42857;
+    color: gray;
+    font-weight: 400;
+}
+ .form-control {
+    height: 30px;
+    padding: 0px 0px 0px 0px;
+    font-size: 14px;
+    line-height: 1.3;
+}
+h3, .h3 {
+    font-size: 1.65em;
+    line-height: 1.5em;
+    margin: 0px;
+}
+
+div.dataTables_wrapper div.dataTables_filter input {
+    margin-left: .1rem;
+    display: inline-block;
+}
+div.dataTables_length > label,
+div.dataTables_info{
+  margin-top: 5px;
+}
+
+.pagination {
+    display: inline-block;
+    padding-left: 0;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    border-radius: 0.18rem;
+}
+div.dataTables_wrapper div.dataTables_info,
+div.dataTables_wrapper div.dataTables_paginate {
+    font-weight: 400;
+    padding-top: 0px;
+    padding-bottom: 5px !important;
+}
+/* ############## END form Style cuntomization because of MBW #################### */
+
+/* ############## BEGIN selectize form Style cuntomization because of MBW #################### */
+  .selectize-dropdown, .selectize-input,
+  .selectize-input input {
+      color: #343a40;
+      font-family: inherit;
+      font-size: inherit;
+      line-height: 1.5 !important;
+      -webkit-font-smoothing: inherit;
+  }
+  .selectize-input {
+      border: 0px solid #ced4da;
+      padding: 0 !important;
+      display: inline-block;
+      width: 100%;
+      overflow: hidden;
+      position: relative;
+      z-index: 1;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      -webkit-box-shadow: none;
+      box-shadow: none;
+      -webkit-border-radius: 0 !important;
+      -moz-border-radius: 0 !important;
+      border-radius: 0 !important;
+      padding-left: 0 !important;
+  }
+  .selectize-input,
+  .selectize-control.single .selectize-input.input-active {
+    background-color: transparent !important;
+    cursor: text;
+    display: inline-block;
+}
+  .selectize-input {
+      min-height: 28px !important;
+      max-height: 200px !important;
+  }
+  #keywords-selectized{
+    top:5px;
+    opacity: 1;
+    position: relative;
+    left: 0px;
+  }
+  #skills-selectized{
+    top:5px;
+    opacity: 1;
+    position: relative;
+    left: 0px;
+  }
+  .selectize-dropdown,
+  .selectize-dropdown.form-control {
+    height: auto;
+    padding: 0;
+    margin: 6px 0 0 0;
+    z-index: 1000;
+    background: #fff;
+    border: 0px solid rgba(0, 0, 0, 0.15);
+    border: 0px solid rgba(0, 0, 0, 0.15);
+    -webkit-border-radius: 0rem;
+    -moz-border-radius: 0rem;
+    border-radius: 0;
+    -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+
+  }
+  .selectize-dropdown .option,
+  .selectize-dropdown [data-disabled], 
+  .selectize-dropdown [data-disabled] [data-selectable].option{
+    cursor: pointer;
+  }
+  .option:hover{
+    background-color: #F8F9FA;
+    -moz-box-shadow: 0px 1px 5px #cccccc;
+    -webkit-box-shadw: 0px 1px 5px #cccccc;
+    box-shadow: 0px 1px 5px #cccccc;
+  }
+  .selectize-control.multi .selectize-input > div {
+    cursor: pointer;
+    margin: 2px 3px 0 0;
+    padding: 1px 3px;
+    background: #efefef;
+    color: #343a40;
+    border: 0 solid #999;
+}
+  .selectize-control.multi .selectize-input > div:first-child {
+      margin-left: 0rem !important;
+  }
+  .selectize-dropdown-content {
+      padding: 0px;
+  }
+  .selectize-dropdown {
+  border: 0 !important;
+  background-image: none !important;
+  background-size: 0 2px, 100% 1px !important;
+  background-repeat: no-repeat !important;
+  background-position: center bottom, center calc(100% - 1px) !important;
+  background-color: #ffffff !important;
+  transition: background 0s ease-out !important;
+  float: none !important;
+  -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175) !important;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175) !important;
+  border-radius: 0 !important;
+  font-weight: 400 !important;
+  }
+  .form-group {
+      padding-bottom: 0px;
+      margin: 0;
+  }
+  .form-group.form-group-lg {
+    padding-bottom: 0;
+    margin: 0;
+  }
+  .form-group .form-control {
+      margin-bottom: 0px;
+  }
+  div.dataTables_wrapper div.dataTables_filter label,
+  div.dataTables_wrapper div.dataTables_length label {
+      text-align: left;
+      font-weight: 400;
+      padding-top: .5rem;
+      padding-bottom: .5rem;
+      display: -webkit-inline-box;
+  }
+  @media (min-width: 544px){
+    .navbar {
+        border-radius: 0rem !important;
+    }
+  }
+/* ############## END selectize form Style cuntomization because of MBW #################### */
+
+/* ############## BEGIN Notification/toast Style cuntomization #################### */
+.notify.notify__top-right{
+  top:63px;
+  right:0px;
+  direction:rtl;
+}
+.notify .notify__close {
+  font-size: .7em;
+}
+/* ############## END Notification/toast Style cuntomization #################### */
